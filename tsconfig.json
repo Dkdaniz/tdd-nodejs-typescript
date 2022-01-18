@@ -4,6 +4,6 @@
         "module": "commonjs", //version of Javascript
         "target": "ES2019", //version of deploy
         "esModuleInterop": true, //conversion of import/export
-        "allowJs": true //Allow read to Javascript File
+        "allowJs": true //Allow read to Javascript File 
     }
 }
