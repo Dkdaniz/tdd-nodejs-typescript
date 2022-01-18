@@ -5,6 +5,11 @@
   "repository": "https://github.com/Dkdaniz/tdd-nodejs-typescript",
   "author": "Daniel Marques <daniel@descentralizado.com.br>",
   "license": "MIT",
+  "scripts": {
+    "prepare": "husky install",
+    "test": "jest",
+    "test:staged": "jest"
+  },
   "devDependencies": {
     "@types/jest": "^27.4.0",
     "@types/node": "^17.0.9",
@@ -23,9 +28,5 @@
   },
   "lint-staged": {
     "*.js": "eslint --cache --fix"
-  },
-  "scripts": {
-    "prepare": "husky install",
-    "test": "jest"
   }
 }
