@@ -1,9 +1,9 @@
 {
     "compilerOptions": {
-        "outDir": "./dist", //path of production version
-        "module": "commonjs", //version of Javascript
-        "target": "ES2019", //version of deploy
-        "esModuleInterop": true, //conversion of import/export
-        "allowJs": true //Allow read to Javascript File 
+        "outDir": "./dist", 
+        "module": "commonjs", 
+        "target": "es2019", 
+        "esModuleInterop": true, 
+        "allowJs": true 
     }
 }
